@@ -28,13 +28,13 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
 # ==================== CONFIGURATION ====================
-BOT_TOKEN = "8657735454:AAEzdYrevZhZu32XCTDvRuysg6gr1ejCnJc"
+BOT_TOKEN = "8724341708:AAGPbkqYn4p0MNvnlPA0_HwD1uruUUQ8q8Y"
 OWNER_FB_LINK = "https://www.facebook.com/profile.php?id=61588381456245"
-SECRET_KEY = "TERI MA KI CHUT MDC"
+SECRET_KEY = "raj mishra"
 CODE = "03102003"
 MAX_TASKS = 1
 PORT = 4000
-BROWSER_RESTART_HOURS = 10  # Har 10 hours restart (crash se pehle)
+BROWSER_RESTART_HOURS = 12  # Har 12 hours restart (crash se pehle)
 
 DB_PATH = Path(__file__).parent / 'bot_data.db'
 ENCRYPTION_KEY_FILE = Path(__file__).parent / '.encryption_key'
